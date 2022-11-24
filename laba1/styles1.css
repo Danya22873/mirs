@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+body{
+    background: linear-gradient(220deg, #48bdff, #4426bf, #c30021, #48bdff);
+    background-size: 800% 800%;
+
+    -webkit-animation: back 30s ease infinite;
+    -moz-animation: back 30s ease infinite;
+    animation: back 30s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes back {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes back {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes back {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.container{
+    width: 40%;
+    min-height: 800px;
+    background-color: rgba(0, 0, 0, 0.423);
+    border-radius: 30px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #FFF;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #FFF;
+}
+p{
+    font-size: 2rem;
+}
+i{
+    font-size: 2.2rem;
+}
+p span{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.info{
+    padding: 1.5rem;
+}
+code{
+    font-size: 1.7rem;
+}

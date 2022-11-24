@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каледин Данила</title>
+    <link rel="stylesheet" href="styles1.css">
+    <meta name="description" content="Страница обо мне">
+    <meta name="keywords" content="каледин данила, питон, js, react, vue, python">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="info">
+            <h1>Мои анкетные данные</h1>
+            <p><span>ФИО</span>:Каледин Данила Юрьевич <br><span>ВОЗРАСТ</span> : 18 ЛЕТ <br> <span>РОСТ</span> : ~180см <br> <span>ВЕС</span> : ~70кг </p>
+            <br>
+            <h1>Моё хобби</h1>
+            <p>Мне очень нравится играть на электрогитаре. Хотелось бы сильнее изучить <span>front-end</span>, а по точнее язык программирования <span>JavaScript</span>, а так же какой-либо  фреймворк <span>React</span> или <span>Vue</span>.
+            <i>Но к сожалению мне пока на это не хватает времени.</i>
+            <br>
+            <br>
+            <h2>Программирование</h2>
+            <p>Программа на языке Python:</p>
+            <br>
+            <pre>
+                <code>def indexOfMaxElement(array):
+                    maxIndex=0
+                    max1=abs(array[0])
+                    for i in range(len(array)): 
+                        if max1 < abs(array[i]): 
+                            max1, maxIndex = abs(array[i]), i
+                    return maxIndex
+                
+                def sumElements(array):
+                    summ=0
+                    for i in range(len(array)):
+                        if  array[i] > 0:
+                            indexp = i
+                            break
+                    for i in range(indexp, (len(array))):
+                        summ = summ + array[i]
+                    return summ       
+                </code>
+            </pre>                
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
